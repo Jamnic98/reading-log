@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.WLMoveWindowController">
+    <GridPane fx:id="gridPane" layoutX="86.0" layoutY="130.0" prefHeight="400.0" prefWidth="300.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="74.8" minHeight="10.0" prefHeight="30.6" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="70.8" minHeight="0.0" prefHeight="67.8" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="62.6" minHeight="10.0" prefHeight="52.6" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <Label alignment="CENTER" text="Move a book to the home page" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+            <font>
+                <Font name="Arial Bold" size="18.0" />
+            </font>
+        </Label>
+        <Label fx:id="titleLabel" text="Title:" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+            <font>
+                <Font name="Arial" size="14.0" />
+            </font>
+            <GridPane.margin>
+                <Insets left="10.0" right="10.0" />
+            </GridPane.margin>
+        </Label>
+        <TextField fx:id="titleTextBox" prefHeight="39.0" prefWidth="260.0" GridPane.halignment="LEFT" GridPane.rowIndex="2">
+            <GridPane.margin>
+                <Insets left="10.0" right="10.0" />
+            </GridPane.margin>
+            <font>
+                <Font name="Arial" size="14.0" />
+            </font>
+        </TextField>
+        <Label fx:id="authorLabel" text="Author:" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+            <font>
+                <Font name="Arial" size="14.0" />
+            </font>
+            <GridPane.margin>
+                <Insets left="10.0" right="10.0" />
+            </GridPane.margin>
+        </Label>
+        <TextField fx:id="authorTextBox" prefHeight="54.0" prefWidth="260.0" GridPane.halignment="LEFT" GridPane.rowIndex="4">
+            <GridPane.margin>
+                <Insets left="10.0" right="10.0" />
+            </GridPane.margin>
+            <font>
+                <Font name="Arial" size="14.0" />
+            </font>
+        </TextField>
+        <Label text="Rating:" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+            <font>
+                <Font name="Arial" size="14.0" />
+            </font>
+            <GridPane.margin>
+                <Insets left="10.0" right="10.0" />
+            </GridPane.margin>
+        </Label>
+        <Label fx:id="moveWindowCommentsLabel" text="Comments:" translateY="-3.0" GridPane.halignment="LEFT" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+            <font>
+                <Font name="Arial" size="14.0" />
+            </font>
+            <GridPane.margin>
+                <Insets left="10.0" right="10.0" />
+            </GridPane.margin>
+        </Label>
+        <TextArea fx:id="commentsTextBox" prefHeight="50.0" prefWidth="260.0" promptText="What are your thoughts on this book?" wrapText="true" GridPane.halignment="LEFT" GridPane.rowIndex="8" GridPane.valignment="TOP">
+            <font>
+                <Font name="Arial" size="14.0" />
+            </font>
+            <GridPane.margin>
+                <Insets left="10.0" right="10.0" />
+            </GridPane.margin>
+        </TextArea>
+        <Button fx:id="moveWindowSubmitButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleSubmitButton" text="Submit" translateY="-5.0" GridPane.halignment="CENTER" GridPane.rowIndex="9">
+            <font>
+                <Font name="Arial Bold" size="14.0" />
+            </font>
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+            <GridPane.margin>
+                <Insets left="10.0" right="10.0" top="10.0" />
+            </GridPane.margin>
+        </Button>
+    </GridPane>
+</AnchorPane>

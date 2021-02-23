@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.WLEditWindowController">
+    <GridPane layoutX="64.0" layoutY="103.0" prefHeight="400.0" prefWidth="300.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <Label alignment="CENTER" text="Edit an entry" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <font>
+                <Font name="Arial Bold" size="18.0" />
+            </font>
+        </Label>
+        <Label fx:id="editWindowTitleLabel" text="Title:" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <font>
+                <Font name="Arial" size="14.0" />
+            </font>
+            <GridPane.margin>
+                <Insets left="10.0" right="10.0" />
+            </GridPane.margin>
+        </Label>
+        <TextField fx:id="editWindowTitleTextBox" prefHeight="32.8" prefWidth="260.0" translateY="-10.0" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+            <GridPane.margin>
+                <Insets left="10.0" right="10.0" />
+            </GridPane.margin>
+            <font>
+                <Font name="Arial" size="14.0" />
+            </font>
+        </TextField>
+        <Label fx:id="editWindowAuthorLabel" text="Author:" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+            <font>
+                <Font name="Arial" size="14.0" />
+            </font>
+            <GridPane.margin>
+                <Insets left="10.0" right="10.0" />
+            </GridPane.margin>
+        </Label>
+        <TextField fx:id="editWindowAuthorTextBox" prefHeight="32.8" prefWidth="260.0" translateY="-10.0" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+            <GridPane.margin>
+                <Insets left="10.0" right="10.0" />
+            </GridPane.margin>
+            <font>
+                <Font name="Arial" size="14.0" />
+            </font>
+        </TextField>
+        <Button fx:id="editWindowSubmitButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleSubmitButton" text="Submit" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+            <font>
+                <Font name="Arial Bold" size="14.0" />
+            </font>
+            <padding>
+                <Insets bottom="8.0" left="10.0" right="10.0" top="8.0" />
+            </padding>
+            <GridPane.margin>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </GridPane.margin>
+        </Button>
+      <padding>
+         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+      </padding>
+    </GridPane>
+</AnchorPane>

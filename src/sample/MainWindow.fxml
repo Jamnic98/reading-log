@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainAnchor" fx:controller="sample.MainWindowController" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+             prefHeight="500.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE">
+        <Tab closable="false" text="Home Page">
+            <fx:include fx:id="hpTab" source="HPTab.fxml" />
+        </Tab>
+        <Tab closable="false" text="Wish List">
+            <fx:include fx:id="wlTab" source="WLTab.fxml" />
+        </Tab>
+    </TabPane>
+</AnchorPane>
