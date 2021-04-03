@@ -12,7 +12,7 @@
 
 
 ### The tabs (empty)
-| Reading Log Home Tab (empty) | Reading Log Wish List Tab (empty) |
+| Home Tab (empty) | Wish List Tab (empty) |
 | --- | --- |
 | ![](https://user-images.githubusercontent.com/44094740/99146145-43758c80-266d-11eb-8bfd-5d9f76c7b35b.png) | ![](https://user-images.githubusercontent.com/44094740/99146146-440e2300-266d-11eb-94b4-ada96f9cdf86.png) |
 
