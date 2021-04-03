@@ -2,13 +2,6 @@
 > A program to store a list of books the user has read and a list of books they want to read using a MySQL database.
 > Each list can be filtered by title, author or rating out of 10.
 
-
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
-* [Screenshots](#screenshots)
-* [Built with](#built-with)
-
-
 <!-- Screenshots -->
 ## Screenshots
 ### Searching for a book:
