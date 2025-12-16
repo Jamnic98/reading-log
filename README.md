@@ -2,7 +2,6 @@
 > A program to store a list of books the user has read and a list of books they want to read using a MySQL database.
 > Each list can be filtered by title, author or rating out of 10.
 
-<!-- Screenshots -->
 ## Screenshots
 ### Searching for a book:
 ![Reading Log Book Searching Demo](https://user-images.githubusercontent.com/44094740/98675331-0601be00-2352-11eb-8e8e-477d72a6b3dc.gif)
@@ -17,7 +16,6 @@
 | ![](https://user-images.githubusercontent.com/44094740/99146145-43758c80-266d-11eb-8bfd-5d9f76c7b35b.png) | ![](https://user-images.githubusercontent.com/44094740/99146146-440e2300-266d-11eb-94b4-ada96f9cdf86.png) |
 
  
-<!-- Technologies used in development -->
 ## Built with
 * Java 14.0.1
 * JavaFX 14.0.1
